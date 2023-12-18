@@ -19,18 +19,12 @@ h2 {
 div.nature {
 	width:50%; 
     background-color: white;
-    float:left;
-    margin: 10px; 
-  	padding: 10px;
     color:Orange;
 }
 
 div.dogs {
 	width:50%; 
     background-color: white;
-	float:left;
-    margin: 10px; 
-    padding: 10px;
     color:Orange;
 }
 
