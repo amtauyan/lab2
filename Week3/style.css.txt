@@ -1,0 +1,6 @@
+body {
+	background-color:Turquoise;
+}
+h1 {
+	color:darkblue;
+}
