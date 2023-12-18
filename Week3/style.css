@@ -1,28 +1,44 @@
 body {
-	background-color:Turquoise;
+	background-color:LemonChiffon;
 }
 h1 {
-	color:darkblue;
+	color:SlateBlue;
 	text-align:center;
+	font-family: "Papyrus", fantasy;
 }
 
 p {
 	font-family: "Garamanond", sans-serif;
 }
 
+h2 {
+	color: OrangeRed;
+    font-family: "Lucida Console", monospace;
+}
+
 div.nature {
-	width:150px; 
-	height:200px;
-	margin-right: 20px;
+	width:50%; 
+    background-color: white;
+    float:left;
+    margin: 10px; 
+  	padding: 10px;
+    color:Orange;
 }
 
 div.dogs {
-	width:150px; 
-	height:200px;
-	margin-right: 20px;
+	width:50%; 
+    background-color: white;
+	float:left;
+    margin: 10px; 
+    padding: 10px;
+    color:Orange;
 }
 
 div.container {
   text-align: center;
-  padding: 10px 20px;
+  margin:10px;
+}
+
+.polaroid {
+	font-family: "Lucida Handwriting", cursive;
 }
