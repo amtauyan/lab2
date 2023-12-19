@@ -20,7 +20,6 @@ p {
 }
 
 div.nature, div.dogs {
-	width:48%; 
     background-color: white;
     color:Orange;
     display:inline-block;
