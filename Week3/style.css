@@ -20,11 +20,13 @@ p {
 }
 
 div.nature, div.dogs {
-    background-color: white;
-    color:Orange;
+    background-color: MediumAquaMarine;
+    color:Navy;
     display:inline-block;
-    margin:1%;
+    margin:1.5%;
     vertical-align:top;
+    border-radius: 5px;
+    border: 2px solid MediumAquaMarine;
 }
 
 div.container {
@@ -37,9 +39,9 @@ div.container {
 
 .polaroid {
 	font-family: "Lucida Handwriting", cursive;
-	padding: 10px;
+	padding: 5px;
 	background-color: #f8f8f8;
-	border: 1px solid orange;
+	border: 2px solid Navy;
   border-radius: 5px;
   text-align: center;
 }
@@ -54,4 +56,21 @@ div.container {
  	color: Crimson;
   font-family: "Trirong", serif;
   text-align: center;
+  font-size: 20px;
+}
+
+.section-box {
+  background-color: MistyRose;
+  border: 3px solid OrangeRed;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 10%;
+}
+
+.polaroid-box {
+  background-color: MistyRose;
+  border: 3px solid OrangeRed;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 10%;
 }
