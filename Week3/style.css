@@ -16,17 +16,15 @@ h2 {
     font-family: "Lucida Console", monospace;
 }
 
-div.nature {
-	width:50%; 
+div.nature, div.dogs {
+	width:48%; 
     background-color: white;
     color:Orange;
+    display:inline-block;
+    margin:1%;
+    vertical-align:top;
 }
 
-div.dogs {
-	width:50%; 
-    background-color: white;
-    color:Orange;
-}
 
 div.container {
   text-align: center;
@@ -35,4 +33,8 @@ div.container {
 
 .polaroid {
 	font-family: "Lucida Handwriting", cursive;
+	padding: 10px;
+	background-color: #f8f8f8;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
 }
