@@ -1,5 +1,5 @@
 body {
-	background-color:LemonChiffon;
+	background-image: url('tofubg.gif');
 }
 
 h1 {
@@ -60,17 +60,21 @@ div.container {
 }
 
 .section-box {
-  background-color: MistyRose;
-  border: 3px solid OrangeRed;
+  background-color: rgba(255, 228, 225, 0.5);
+  border: 5px double OrangeRed;
   border-radius: 5px;
   padding: 15px;
   margin: 15px 10%;
 }
 
 .polaroid-box {
-  background-color: MistyRose;
+  background-color: rgba(255, 228, 225, 0.5);
   border: 3px solid OrangeRed;
   border-radius: 5px;
   padding: 15px;
   margin: 15px 10%;
+}
+
+#singlepic {
+  border:10px ridge gold;
 }
