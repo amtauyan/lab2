@@ -1,6 +1,9 @@
 body {
 	background-image: url('tofubg.gif');
   background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
 }
 
 h1 {
