@@ -82,3 +82,8 @@ div.container {
 #singlepic {
   border:10px ridge gold;
 }
+
+.socmed {
+  width: 150px;
+  margin: auto;
+}
