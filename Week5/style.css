@@ -1,15 +1,67 @@
 body {
-	background-image: url('tofubg.gif');
+  background-image: url('bg.jpeg');
   background-size:100%;
   background-attachment: fixed;
   height:100%;
   width:100%;
 }
 
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sofia', sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  color: #FFF0F5;
+  font-family: 'Caesar Dressing', system-ui;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.navbar a{
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: .3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.MainTitle {
 	color:SlateBlue;
 	text-align:center;
 	font-family: "Papyrus", fantasy;
+  margin-top: auto;
+  align-self: flex-end;
 }
 
 p {
