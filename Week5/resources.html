@@ -23,24 +23,12 @@
     </header>
     <div class="title">
         <h1>References</h1>
-        <p></p>
+        <p id="demo"></p>
     </div>
     <script>
-        const letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",];
-
-        function generateListItems(arg) {
-            let items ="";
-            for (let i = 0; i < arg.length; i++){
-                items += `<li>${arg[i]}</li>`;
-            }
-            return  items;
-        }
-
-        document.querySelector("p").innerHTML = `
-        <ol>
-        ${generateListItems(letters)}
-        </ol>
-        `;
+        let text = "Youtube, W3Schools, Google Fonts";
+        let part = text.slice(8,18);
+        document.getElementById("demo").innerHTML = part; 
     </script>
 </body>
 </html>
