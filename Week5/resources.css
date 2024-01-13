@@ -72,3 +72,9 @@ body {
   color: #FFF8DC;
   font-family: 'Roboto Mono', monospace;
 }
+
+.title p{
+  margin-top: 20px;
+  color: #FFF8DC;
+  font-family: 'Roboto Mono', monospace;
+}
