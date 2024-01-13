@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 body {
   background-image: url('bg.jpeg');
   background-size:100%;
@@ -70,13 +73,14 @@ body {
 .text-box h1 {
   font-size: 50px;
   color: #FFF8DC;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 .text-box p{
   margin-top: 20px;
   color: #FFF8DC;
   font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
 }
 
 .text-box a {
@@ -138,7 +142,7 @@ button {
 }
 
 .neon-button {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'DotGothic16', sans-serif
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
