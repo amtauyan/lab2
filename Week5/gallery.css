@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Grenze+Gotisch:wght@100&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
+
 body {
   background-image: url('bg.jpeg');
   background-size:100%;
@@ -5,13 +8,14 @@ body {
   height:100%;
   width:100%;
   padding-top: 80px;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sofia', sans-serif;
 }
 
 .header {
@@ -132,7 +136,7 @@ div.container {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -160,20 +164,8 @@ button {
   margin-left: 15em;  
 }
 
-.column {
-  float: left;
-  width: 50%;
-
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .neon-button {
-  font-family: 'DotGothic16', sans-serif
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
@@ -181,11 +173,8 @@ button {
   border: var(--clr-neon) 0.125em solid;
   padding: 0.25em 1em;
   border-radius: 0.25em;
-
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
-
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
-
   position: relative;
   left: -170px;
 }

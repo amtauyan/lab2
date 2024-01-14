@@ -5,13 +5,14 @@ body {
   height:100%;
   width:100%;
   padding-top: 80px;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sofia', sans-serif;
 }
 
 .header {
@@ -149,7 +150,7 @@ strong {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -190,7 +191,7 @@ button {
 }
 
 .neon-button {
-  font-family: 'DotGothic16', sans-serif
+  font-family: 'DotGothic16', sans-serif;
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
