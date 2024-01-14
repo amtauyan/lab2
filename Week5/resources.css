@@ -8,7 +8,7 @@ body {
   height:100%;
   width:100%;
   overflow: hidden;
-  margin: 0;
+  padding-top: 80px;
 }
 
 * {
@@ -31,7 +31,10 @@ body {
 }
 
 .logo {
-  color: #FFF0F5;
+  background: #FFF821;
+  background: linear-gradient(to bottom right, #FFF821 18%, #3BA19A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Caesar Dressing', system-ui;
   font-size: 50px;
   text-decoration: none;
@@ -100,7 +103,7 @@ body {
   font-size: 25px;
   align-items: center;
   color: white;
-  height: 110vh;
+  height: 90vh;
   font-family: 'Sulphur Point', sans-serif;
 }
 
