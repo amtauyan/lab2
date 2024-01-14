@@ -19,6 +19,7 @@ body {
 }
 
 .header {
+  font-family: 'Sofia', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
