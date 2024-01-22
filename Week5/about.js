@@ -16,3 +16,19 @@ function myNickname() {
     return "My nicknames are Angel/ Angela/ Gela/ Angge/ Mae."
 }
 document.getElementById("nickname").innerHTML = myNickname();
+
+class Website {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+
+  }
+  age() {
+    const date = new Date();
+    return date.getFullYear() - this.year;
+  }
+}
+
+const myWeb = new Website("SaiDa", 2023);
+document.getElementById("web").innerHTML =
+"My website is " + myWeb.age() + " years old.";
