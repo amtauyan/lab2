@@ -34,3 +34,7 @@ document.getElementById("web").innerHTML =
 "My website is " + myWeb.age() + " years old.";
 
 document.getElementById("p1").innerHTML = "Please Enjoy my Website!!!";
+
+function myFunction() {
+  alert("I am just an alert box!");
+}
