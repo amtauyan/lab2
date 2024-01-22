@@ -32,3 +32,5 @@ class Website {
 const myWeb = new Website("SaiDa", 2023);
 document.getElementById("web").innerHTML =
 "My website is " + myWeb.age() + " years old.";
+
+document.getElementById("p1").innerHTML = "Please Enjoy my Website!!!";
