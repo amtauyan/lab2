@@ -10,3 +10,9 @@ const person = {
 
 const personInfoElement = document.getElementById('personInfo');
     personInfoElement.textContent = `I am ${person.name} and I'm ${person.age} years old.`;
+
+
+function myNickname() {
+    return "My nicknames are Angel/ Angela/ Gela/ Angge/ Mae."
+}
+document.getElementById("nickname").innerHTML = myNickname();
