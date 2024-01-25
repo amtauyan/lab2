@@ -73,6 +73,7 @@
     <p id="p1">Hello World!</p>
     <p>The sentence above was changed by a script.</p>
     <button onclick="myFunction()">TRY!!! ME!!!</button>
+
     <p>The start of using PHP codes:</p>
     <?php
       /*
@@ -81,6 +82,7 @@
       */
       echo "Please don't judge my work T_T";
     ?>
+
     <p>Characters in my name (including spaces):</p>
     <?php
       var_dump("Angela Mae M. Tauyan");
@@ -90,6 +92,20 @@
       echo "<h2>" . $txt1 . "</h2>";
       echo "I got my inspiration at " . $txt2 . "<br>";
     ?>
+
+    <p>Word Count the upper sentence:</p>
+    <?php
+      echo str_word_count("I got my inspiration at Allyza's Website");
+    ?>
+    <p>Find the missing number? (chariz)</p>
+    <?php
+      $i = 0;
+      do {
+        $i++;
+        if ($i == 3) continue;
+        echo $i;
+      } while ($i < 7);
+    ?> 
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
