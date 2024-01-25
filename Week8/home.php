@@ -14,8 +14,8 @@
     <header class="header">
         <a href="#" class="logo">SaiDa</a>
         <nav class="navbar">
-            <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/home.html" class="font-effect-neon">Home</a>
-            <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/about.html" class="font-effect-neon">About</a>
+            <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/home.php" class="font-effect-neon">Home</a>
+            <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week8/about.php" class="font-effect-neon">About</a>
             <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/gallery.html" class="font-effect-neon">Gallery</a>
             <a href="#" class="font-effect-neon">Guests</a>
             <a href="https://socitcloud.apc.edu.ph/~amtauyan/lab2/Week5/resources.html" class="font-effect-neon">References</a>
