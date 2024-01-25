@@ -106,6 +106,17 @@
         echo $i;
       } while ($i < 7);
     ?> 
+
+    <p>My Family's Names are:</p>
+    <?php
+      function familyName($fname) {
+        echo "$fname Tauyan.<br>";
+      }
+
+      familyName("Noralyn");
+      familyName("Rogelio");
+      familyName("Steph");
+    ?>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
