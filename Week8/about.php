@@ -84,6 +84,11 @@
     <p>Characters in my name (including spaces):</p>
     <?php
       var_dump("Angela Mae M. Tauyan");
+      $txt1 = "My Website Inspiration";
+      $txt2 = "Allyza's Website";
+
+      echo "<h2>" . $txt1 . "</h2>";
+      echo "I got my inspiration at " . $txt2 . "<br>";
     ?>
   </div>
 
