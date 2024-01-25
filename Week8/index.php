@@ -32,7 +32,7 @@
         });
 
         video.addEventListener("ended", function() {
-            window.location.href = "home.html";
+            window.location.href = "home.php";
         });
     </script>
 

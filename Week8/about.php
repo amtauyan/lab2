@@ -25,7 +25,9 @@
   <img id="singlepic" src="Profile.jpg" alt="Portrait of Angela Tauyan" width="300px" height="300px" class="center">
   <h2 class="Subtitle">Basic Information</h2>
   <div class="section-box">
-    <p id="personInfo"></p><p id="nickname"></p>
+    <p><strong>Name:</strong> Angela 'SaiDa' Mae M. Tauyan</p>
+    <p><strong>Age:</strong> 20 years old</p>
+    <p><strong>Nickname/s:</strong> Angel/ Angela/ Gela/ Angge/ Mae</p>
     <p><strong>Hobbies/Interests:</strong> I play games during my free time, but if I am lazy to move my fingers that much in such a game, I rather dance or like read books. Then, if there is a schedule for volleyball or badminton games made by my friends or family, I rather pick that than the other two hobbies.</p>
     <img id="singlepic" src="HS Volleyball.jpg" alt="Angela and her highschool volleyball team" height="200px" width="300px" class="center">
   </div>
@@ -71,6 +73,14 @@
     <p id="p1">Hello World!</p>
     <p>The sentence above was changed by a script.</p>
     <button onclick="myFunction()">TRY!!! ME!!!</button>
+    <p>The start of using PHP codes:</p>
+    <?php
+      /*
+      echo "Welcome to SaiDa's Solitary!";
+      echo "Enjoy your stay!";
+      */
+      echo "Please don't judge my work T_T";
+    ?>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
