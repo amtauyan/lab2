@@ -81,6 +81,10 @@
       */
       echo "Please don't judge my work T_T";
     ?>
+    <p>Characters in my name (including spaces):</p>
+    <?php
+      var_dump("Angela Mae M. Tauyan");
+    ?>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
