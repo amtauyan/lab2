@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `myguests`
 --
 
-CREATE TABLE `myguests` (
+CREATE TABLE `amtauyan_myguests` (
   `id` int(6) UNSIGNED NOT NULL,
   `name` varchar(30) NOT NULL,
   `email` varchar(50) DEFAULT NULL,
@@ -55,7 +55,7 @@ INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `comment`, `gender`, `
 --
 -- Indexes for table `myguests`
 --
-ALTER TABLE `myguests`
+ALTER TABLE `amtauyan_myguests`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -65,7 +65,7 @@ ALTER TABLE `myguests`
 --
 -- AUTO_INCREMENT for table `myguests`
 --
-ALTER TABLE `myguests`
+ALTER TABLE `amtauyan_myguests`
   MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
