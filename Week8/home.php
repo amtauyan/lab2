@@ -35,14 +35,6 @@
             loop: true
         })
     </script>
-    <footer id="resfoot">
-        <div class="row">
-            <div class="column">
-                    <button class="neon-button" onclick="showDateTime()">Date and Time</button>
-                    <p id="dateTime"></p>
-            </div>
-    </footer>
-
     <script src="home.js"></script>
 </body>
 </html>
